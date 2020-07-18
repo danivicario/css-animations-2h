@@ -1,0 +1,4 @@
+.generic:hover {
+  /* transition: background 1s var(--bezierAnimation); */
+  background: var(--color);
+}

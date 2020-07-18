@@ -1,0 +1,12 @@
+:root {
+  --bezierAnimation: cubic-bezier(0.76, 0.01, 0.98, -0.11);
+  --color: rgba(120, 0, 0);
+  --dimensions: 200px;
+}
+
+.generic {
+  height: calc(var(--dimensions) * 2);
+  width: calc(var(--dimensions) * 2);
+  background: red;
+  cursor: pointer;
+}
