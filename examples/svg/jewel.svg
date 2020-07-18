@@ -1,0 +1,104 @@
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns1="http://sozi.baierouge.fr" id="jewel"
+  sodipodi:docname="orange_jewel2.svg" viewBox="0 0 110.56 103.77" sodipodi:version="0.32" version="1.0"
+  inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.48.1 ">
+  <defs id="defs4">
+    <radialGradient id="radialGradient3759" gradientUnits="userSpaceOnUse" cy="438.86" cx="241.99" r="42.169"
+      inkscape:collect="always">
+      <stop id="stop3755" style="stop-color:#ffc619" offset="0" />
+      <stop id="stop4465" style="stop-color:#ff740f" offset=".61111" />
+      <stop id="stop3757" style="stop-color:#ff4d0f" offset="1" />
+    </radialGradient>
+    <filter id="filter3798" height="1.3381" width="1.2031" color-interpolation-filters="sRGB" y="-.16906" x="-.10154"
+      inkscape:collect="always">
+      <feGaussianBlur id="feGaussianBlur3800" stdDeviation="3.451071" inkscape:collect="always" />
+    </filter>
+    <filter id="filter3834" inkscape:collect="always" color-interpolation-filters="sRGB">
+      <feGaussianBlur id="feGaussianBlur3836" stdDeviation="2.1084536" inkscape:collect="always" />
+    </filter>
+    <filter id="filter3895" inkscape:collect="always">
+      <feGaussianBlur id="feGaussianBlur3897" stdDeviation="0.51252593" inkscape:collect="always" />
+    </filter>
+    <linearGradient id="linearGradient4463" y2="470.04" gradientUnits="userSpaceOnUse" x2="241.64" y1="385.79"
+      x1="241.64" inkscape:collect="always">
+      <stop id="stop3765" style="stop-color:#ffffff" offset="0" />
+      <stop id="stop3767" style="stop-color:#ffffff;stop-opacity:0" offset="1" />
+    </linearGradient>
+    <filter id="filter4467" height="1.6498" width="1.3903" y="-.32489" x="-.19513" inkscape:collect="always">
+      <feGaussianBlur id="feGaussianBlur4469" stdDeviation="6.6320948" inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview id="base" fit-margin-left="0" inkscape:zoom="2" borderopacity="1.0"
+    inkscape:current-layer="layer1" inkscape:cx="52.641737" inkscape:cy="63.207503" inkscape:window-maximized="1"
+    showgrid="false" fit-margin-right="0" units="in" inkscape:document-units="in" bordercolor="#666666"
+    inkscape:window-x="-4" guidetolerance="10" objecttolerance="10" inkscape:window-y="-4" fit-margin-bottom="0"
+    inkscape:window-width="1920" inkscape:pageopacity="0.0" inkscape:pageshadow="2" pagecolor="#ffffff"
+    gridtolerance="10000" inkscape:window-height="1024" fit-margin-top="0" />
+  <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer" transform="translate(-186.7 -377.92)">
+    <path id="path3812" sodipodi:rx="42.169071" sodipodi:ry="42.169071"
+      style="opacity:.75;color:#000000;filter:url(#filter3834);fill:#000000" sodipodi:type="arc"
+      d="m284.15 427.53c0 23.289-18.88 42.169-42.169 42.169s-42.169-18.88-42.169-42.169 18.88-42.169 42.169-42.169 42.169 18.88 42.169 42.169z"
+      transform="matrix(1.0364 0 0 1.0364 -8.7997 -15.547)" sodipodi:cy="427.52948" sodipodi:cx="241.98558" />
+    <path id="path2983" sodipodi:rx="42.169071" sodipodi:ry="42.169071"
+      style="color:#000000;fill:url(#radialGradient3759)" sodipodi:type="arc"
+      d="m284.15 427.53c0 23.289-18.88 42.169-42.169 42.169s-42.169-18.88-42.169-42.169 18.88-42.169 42.169-42.169 42.169 18.88 42.169 42.169z"
+      sodipodi:cy="427.52948" sodipodi:cx="241.98558" />
+    <path id="path3761" sodipodi:rx="42.169071" sodipodi:ry="42.169071"
+      style="opacity:.6;color:#000000;fill:url(#linearGradient4463)" sodipodi:type="arc"
+      d="m284.15 427.53a42.169 42.169 0 1 1 -84.338 0 42.169 42.169 0 1 1 84.338 0z"
+      transform="matrix(.62825 0 0 .38572 89.957 238.97)" sodipodi:cy="427.52948" sodipodi:cx="241.98558" />
+    <path id="path3771" style="opacity:.65;color:#000000;filter:url(#filter3798);fill:#ffffff"
+      inkscape:connector-curvature="0"
+      d="m242 386.21c-22.524 0-40.802 18.247-40.802 40.772 0 2.7526 0.29617 5.4397 0.81604 8.0395-0.0335-0.58775-0.0605-1.1579-0.0605-1.753 0-19.369 17.944-35.09 40.046-35.09s40.016 15.721 40.016 35.09c0 0.6562-0.0198 1.287-0.0605 1.9343 0.54328-2.6549 0.81604-5.4052 0.81604-8.2208 0-22.524-18.247-40.772-40.772-40.772z" />
+    <path id="path3802"
+      d="m242 386.21c-22.524 0-40.802 18.247-40.802 40.772 0 2.7526 0.29617 5.4397 0.81604 8.0395-0.0335-0.58775-0.0605-1.1579-0.0605-1.753 0-19.369 17.944-35.09 40.046-35.09s40.016 15.721 40.016 35.09c0 0.6562-0.0198 1.287-0.0605 1.9343 0.54328-2.6549 0.81604-5.4052 0.81604-8.2208 0-22.524-18.247-40.772-40.772-40.772z"
+      style="color:#000000;filter:url(#filter4467);fill:#b43300" transform="matrix(1 0 0 -.89199 0 811.69)"
+      inkscape:connector-curvature="0" />
+    <path id="path3856" style="opacity:.75;color:#000000;filter:url(#filter3895);fill:#ffffff"
+      inkscape:connector-curvature="0"
+      d="m241.98 389.94c-11.205 0-21.111 5.5117-27.186 13.965 7.1139-6.6676 16.666-10.74 27.186-10.74 10.519 0 20.072 4.0728 27.186 10.74-6.0753-8.4533-15.981-13.965-27.186-13.965z" />
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Orange Jewel</dc:title>
+        <dc:date>2012-02-14T11:58:18</dc:date>
+        <dc:description>Glowing Orange Jewel</dc:description>
+        <dc:source>https://openclipart.org/detail/168217/orange-jewel-by-tdhoward75</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>tdhoward75</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>button</rdf:li>
+            <rdf:li>glass</rdf:li>
+            <rdf:li>glossy</rdf:li>
+            <rdf:li>glowing</rdf:li>
+            <rdf:li>jewel</rdf:li>
+            <rdf:li>orange</rdf:li>
+            <rdf:li>shiny</rdf:li>
+            <rdf:li>sphere</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

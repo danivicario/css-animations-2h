@@ -1,0 +1,9 @@
+body {
+  background: #08000d;
+}
+
+.butterfly {
+  width: calc(320px / 2);
+  height: calc(270px / 2);
+  /* transition: all 1.5s; */
+}
