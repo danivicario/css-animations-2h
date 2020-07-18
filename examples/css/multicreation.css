@@ -1,12 +1,35 @@
+:root {
+    --dimensions: 50px;
+}
+
 body {
-  background-color: grey;
+    background-color: grey;
 }
 
 .flex {
-  align-items: flex-start;
-  align-content: center;
+    align-items: flex-start;
+    align-content: center;
+    /* justify-content: space-between; */
 }
 
 .generic {
-  align-self: center;
+    --backgroundColorDaniMadrid: #ffcc00;
+
+    align-self: center;
+    background: var(--backgroundColorDaniMadrid);
+    width: calc(var(--dimensions) / 2);
+    height: calc(var(--dimensions) / 2);
+    /* opacity: 0; */
+    /* margin: 5px; */
+}
+
+.generic:hover {
+    background: red !important;
+    transition: all 1.5s;
+    border-radius: 0;
+    /* opacity: 1; */
+}
+
+.generic:hover {
+    background: green;
 }

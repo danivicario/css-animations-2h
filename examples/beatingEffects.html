@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dani Vicario // CSS - Animations 2h Workshop</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/generic.css">
+  <style>
+    body {
+      background-color: black;
+    }
+
+    .circle {
+      position: absolute;
+      left: calc(50vw - 100px);
+      top: calc(50vh - 100px);
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background: rgba(48, 238, 255, .2);
+      border: 1px solid black;
+      transition: all 0.6s;
+      transform-origin: center center;
+    }
+  </style>
+</head>
+
+<body class="flex">
+  <div class="circle circle-1"></div>
+  <div class="circle circle-2"></div>
+  <div class="circle circle-3"></div>
+  <div class="circle circle-4"></div>
+  <div class="circle circle-5"></div>
+
+  <script src="./js/beating.js"></script>
+</body>
+
+</html>
