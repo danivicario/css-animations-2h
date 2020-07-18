@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Simply clone this repo via `git clone https://github.com/danivicario/css-animations-2h.git` and follow example by example in the different htmls.
+Simply clone this repo via `git clone https://github.com/danivicario/css-animations-2h.git` and issue an `npm install` and a `npm start`. Use `http://127.0.0.1:8080` to follow an index with all the examples of the workshop.
 
 ---
 
