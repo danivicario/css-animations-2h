@@ -1,0 +1,12 @@
+body {
+  background-color: grey;
+}
+
+.flex {
+  align-items: flex-start;
+  align-content: center;
+}
+
+.generic {
+  align-self: center;
+}
