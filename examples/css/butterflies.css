@@ -1,9 +1,20 @@
 body {
-  background: #08000d;
+    background: #e5dfd1;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
 }
 
 .butterfly {
-  width: calc(320px / 2);
-  height: calc(270px / 2);
-  /* transition: all 1.5s; */
+    width: calc(320px / 2);
+    height: calc(270px / 2);
+    /* filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.3)); */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
 }
