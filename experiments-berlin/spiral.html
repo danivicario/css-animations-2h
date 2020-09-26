@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./reset.css" />
+        <style>
+            body {
+                background: black;
+            }
+
+            div {
+                --dimensions: 10px;
+                width: var(--dimensions);
+                height: var(--dimensions);
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                opacity: 0.9;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function randomInt(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+
+            function createCoolCircle(factor = 8, color) {
+                Array((360 / factor) * 40)
+                    .fill()
+                    .map((_, angle) => {
+                        const spiralDOMEl = document.createElement("div");
+
+                        let angleInRads = (angle * Math.PI) / 180;
+                        const halfAngle = angle / 2;
+
+                        // spiralDOMEl.style.top = `${window.innerHeight / 2 + 200 * Math.tan(angleInRads)}px`;
+                        spiralDOMEl.style.top = `${window.innerHeight / 2 + 200 + halfAngle * Math.sin(angleInRads * factor)}px`;
+                        spiralDOMEl.style.left = `${window.innerWidth / 2 + 200 + halfAngle * Math.cos(angleInRads * factor)}px`;
+                        // spiralDOMEl.style.left = `${angle * 1}px`;
+                        spiralDOMEl.style.backgroundColor = `rgba(${randomInt(0, 255)}, ${randomInt(0, 255)}, ${randomInt(0, 255)}, 1)`;
+                        // spiralDOMEl.style.height = spiralDOMEl.style.width = `${randomInt(20, 50)}px`;
+                        spiralDOMEl.style.height = spiralDOMEl.style.width = `${randomInt(20, 100)}px`;
+
+                        spiralDOMEl.onmouseover = () => {
+                            spiralDOMEl.style.opacity = 0;
+                        };
+
+                        document.body.appendChild(spiralDOMEl);
+                    });
+            }
+
+            createCoolCircle(4, "#fabada");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="reset.css" />
+        <style>
+            html {
+                background: #00daff;
+            }
+            .beat {
+                height: 100px;
+                width: 100px;
+                background: rgba(148, 255, 248, 0.3);
+                position: absolute;
+                left: calc(50vw - 50px);
+                top: calc(50vh - 50px);
+                transition: all 0.75s;
+                border-radius: 50%;
+                /* opacity: 0.3; */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="beat beat-1"></div>
+        <div class="beat beat-2"></div>
+        <div class="beat beat-3"></div>
+        <div class="beat beat-4"></div>
+
+        <script>
+            // document.querySelector(".beat-2").style.width = document.querySelector(".beat-2").style.height = "120px";
+            // document.querySelector(".beat-3").style.width = document.querySelector(".beat-3").style.height = "140px";
+            // document.querySelector(".beat-4").style.width = document.querySelector(".beat-4").style.height = "160px";
+            function randomFloat(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+            function randomInt(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) + min);
+            }
+            function shuffle(array) {
+                return array.sort(() => Math.random() - 0.5);
+            }
+
+            for (let i = 2; i <= 4; i++) {
+                document.querySelector(`.beat-${i}`).style.transform = `scale(${1 + i * 0.25})`;
+            }
+
+            setInterval(() => {
+                for (let i = 2; i <= 4; i++) {
+                    document.querySelector(`.beat-${i}`).style.transform = `scale(${1 + i * 0.25 + randomFloat(0, 1)})`;
+                    // document.querySelector(`.beat-${i}`).style.backgroundColor = `rgba(${randomInt(0, 255)}, ${randomInt(0, 255)}, ${randomInt(
+                    //     0,
+                    //     255
+                    // )}, 1)`;
+                }
+
+                // let randomTiming = randomFloat(0, 1000);
+
+                // setTimeout(() => {
+                //     for (let i = 2; i <= 4; i++) {
+                //         document.querySelector(`.beat-${i}`).style.transform = `scale(${1 + i * 0.25 + randomFloat(0, 1)})`;
+                //     }
+                // }, randomTiming);
+            }, 800);
+        </script>
+    </body>
+</html>
